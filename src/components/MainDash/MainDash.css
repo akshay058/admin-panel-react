@@ -1,0 +1,32 @@
+.MainDash {
+  /* padding-top: 1rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: rgb(227, 232, 237);
+  border-radius: 2%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.date {
+  display: inline-block;
+  /* justify-self: end; */
+  align-self: flex-end;
+  background-color: rgba(178, 180, 199, 0.863);
+  border-radius: 0.4rem;
+  margin-top: -2rem;
+  padding: 0.5rem 1.6rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .MainDash {
+    justify-content: flex-start;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .MainDash {
+    align-items: center;
+  }
+}
